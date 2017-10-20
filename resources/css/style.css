@@ -158,3 +158,40 @@ footer {
     display: none;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15em;
+  }
+  .headline {
+    width: 100%;
+    padding: 1em 2em;
+    top: 10em;
+  }
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+  .headline h1 {
+    font-size: 1rem;
+  }
+  .products, .business-info {
+    flex-wrap: wrap;
+  }
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+  .product.watch {
+    display: none;
+  }
+  .product.glasses {
+    display: none;
+  }
+  .info {
+    width: 90%;
+    margin: 0.5em auto;
+  }
+  footer {
+    text-align: center;
+  }
+}
